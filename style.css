@@ -30,6 +30,10 @@ img:hover {
     cursor: pointer;
 }
 
+h1 {
+    text-align: center;
+}
+
 /* -------------------------------------------- */
 /*                      HEADER             */
 /* -------------------------------------------- */
@@ -102,6 +106,10 @@ img:hover {
     width: 500px;
     height: 500px;
     box-shadow: 0 0 10px black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .category-title {
@@ -113,4 +121,8 @@ img:hover {
 
 .breed-for {
     word-break: break-word;
+}
+
+.error {
+    color: red;
 }
